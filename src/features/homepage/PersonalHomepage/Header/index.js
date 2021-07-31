@@ -1,6 +1,6 @@
 import { Wrapper, StyledImage, StyledWrapper, Introduction, Name, Description, StyledMessage, ButtonLink } from "./styled";
 import Image from "./wojciechBylica.png";
-import SwitchMode from "../common/SwitchTheme";
+import SwitchMode from "../../../../common/SwitchTheme";
 
 
 const Header = () => (

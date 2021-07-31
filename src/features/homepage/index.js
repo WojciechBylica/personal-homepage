@@ -1,4 +1,4 @@
-import Header from "../../Header"
+import Header from "./PersonalHomepage/Header"
 import { Wrapper } from "../../Wrapper"
 
 
