@@ -1,19 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Normalize } from 'styled-components';
-import { ThemeProvider } from 'styled-components';
-import { theme } from "./theme";
-import { GlobalStyle} from "./GlobalStyle";
+import { Provider } from 'react-redux';
+import store from "./core/store";
+import { App } from './core/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <Normalize />
-      <GlobalStyle />
+    <Provider store={store}>
       <App />
-    </ThemeProvider>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
