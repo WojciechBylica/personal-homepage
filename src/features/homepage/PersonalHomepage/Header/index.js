@@ -1,6 +1,7 @@
 import { Wrapper, StyledImage, StyledWrapper, Introduction, Name, Description, StyledMessage, ButtonLink } from "./styled";
 import Image from "./wojciechBylica.png";
 import SwitchTheme from "../../../../common/SwitchTheme";
+import { email } from "../../email";
 
 
 const Header = () => (
@@ -12,7 +13,7 @@ const Header = () => (
                 <Introduction>This is</Introduction>
                 <Name>Wojciech Bylica</Name>
                 <Description>👨🏻‍💻 💻I’m a passionate Frontend Developer in love with React,currently looking for new job opportunities.</Description>
-                <ButtonLink href={`mailto:"wojciechbylicaarts@gmail.com"`}><StyledMessage /><span>Hire Me</span></ButtonLink>
+                <ButtonLink href={`mailto:${email}`}><StyledMessage /><span>Hire Me</span></ButtonLink>
             </StyledWrapper>
         </Wrapper>
 
