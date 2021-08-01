@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as GitHub } from "./icons/gitHub.svg";
+import { ReactComponent as GitHub } from "../icons/gitHub.svg";
 
 export const FooterIntroduction = styled.p`
     font-size: 12px;
