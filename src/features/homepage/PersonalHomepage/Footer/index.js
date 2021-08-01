@@ -1,5 +1,5 @@
 import { FooterDescription, FooterIntroduction, FooterLink, GitHubIcon } from "./styled";
-import { email } from "../../email";
+import { email } from "../email";
 
 
 
