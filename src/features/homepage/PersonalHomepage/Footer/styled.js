@@ -12,6 +12,7 @@ export const FooterLink = styled.a`
     font-weight: 900;
     color: ${({ theme }) => theme.color.text};
     margin-top: 24px;
+    text-decoration: none;
 
     &:hover {
         color: ${({ theme }) => theme.color.emailHover}
