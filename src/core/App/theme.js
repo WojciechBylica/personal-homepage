@@ -3,21 +3,25 @@ const colorNames = {
     whiteLilac: "#FBFBFE",
     lightGrey: "#E5E5E5",
     iron: "#d1d5da4d",
+    semiGrey: "#d1d5da1a",
     slateGrey: "#6E7E91",
     mineShaft: "#252525",
     scienceBlue: "#0366D6",
     dodgerBlue: "#2188FF",
-    semiDark:"#363636b8",
+    semiDark: "#363636b8",
 };
 
-const media = {
-    mobileMax: 767,
+const common = {
+    media: {
+        mobileMax: 767,
+        tabletMax: 991,
+    },
 };
 
 export const themeLight = {
-    ...media,
+    ...common,
     color: {
-        background: colorNames.whiteLilac,
+        background: colorNames.lightGrey,
         text: colorNames.mineShaft,
         textSecondary: colorNames.slateGrey,
         linkButtonBg: colorNames.scienceBlue,
@@ -25,6 +29,9 @@ export const themeLight = {
         buttonBorder: colorNames.slateGrey,
         buttonToggle: colorNames.slateGrey,
         buttonIcon: colorNames.white,
+        sectionBackground: colorNames.white,
+        sectionHeaderBorder: colorNames.iron,
+        bulletColor: colorNames.scienceBlue,
         white: "#FFFFFF",
         whiteLilac: "#FBFBFE",
         lightGrey: "#E5E5E5",
@@ -33,13 +40,10 @@ export const themeLight = {
         mineShaft: "#252525",
         scienceBlue: "#0366D6",
     },
-    media: {
-        mobileMax: 767,
-    }
-}
+};
 
 export const themeDark = {
-    ...media,
+    ...common,
     color: {
         background: colorNames.mineShaft,
         text: colorNames.white,
@@ -49,6 +53,9 @@ export const themeDark = {
         buttonBorder: colorNames.white,
         buttonToggle: colorNames.white,
         buttonIcon: colorNames.mineShaft,
+        sectionBackground: colorNames.semiDark,
+        sectionHeaderBorder: colorNames.semiGrey,
+        bulletColor: colorNames.dodgerBlue,
         white: "#FFFFFF",
         whiteLilac: "#252525",
         lightGrey: "#E5E5E5",
@@ -57,40 +64,4 @@ export const themeDark = {
         mineShaft: "#252525",
         scienceBlue: "#0366D6",
     },
-    media: {
-        mobileMax: 767,
-    }
-}
-
-
-// export const themeLight = {
-//     ...media,
-//     colors: {
-//         primary: colorNames.mineShaft,
-//         secondary: colorNames.slateGrey,
-//         background: colorNames.whiteLilac,
-//         white: "#FFFFFF",
-//     whiteLilac: "#FBFBFE",
-//     lightGrey: "#E5E5E5",
-//     iron: "#d1d5da4d",
-//     slateGrey: "#6E7E91",
-//     mineShaft: "#252525",
-//     scienceBlue: "#0366D6",
-//     },
-// };
-
-// export const themeDark = {
-//     ...media,
-//     colors: {
-//         primary: colorNames.white,
-//         secondary: colorNames.white,
-//         background: colorNames.mineShaft,
-//         white: "#FFFFFF",
-//     whiteLilac: "#FBFBFE",
-//     lightGrey: "#E5E5E5",
-//     iron: "#d1d5da4d",
-//     slateGrey: "#6E7E91",
-//     mineShaft: "#252525",
-//     scienceBlue: "#0366D6",
-//     },
-// }
+};

@@ -4,10 +4,12 @@ import { ReactComponent as Message } from "./Message.svg";
 export const Wrapper = styled.article`
     display: flex;
     flex-direction: row;
+    margin-bottom: 63px;
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         flex-direction: column;
-    }
+        margin-bottom: 48px;
+    };
 `;
 
 export const StyledImage = styled.img`
@@ -21,8 +23,8 @@ export const StyledImage = styled.img`
 
     @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
         width: 132px;
-         height: 132px;
-    }
+        height: 132px;
+    };
 `;
 
 export const StyledWrapper = styled.div`
@@ -34,7 +36,7 @@ export const StyledWrapper = styled.div`
 
     @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
         margin: 0;
-    }
+    };
 `;
 
 export const Introduction = styled.p`
@@ -46,7 +48,7 @@ export const Introduction = styled.p`
 
     @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
         margin: 12.67px 0 8px;
-    }
+    };
 `;
 
 export const Name = styled.h1`
@@ -59,7 +61,7 @@ export const Name = styled.h1`
 
     @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
         font-size: 22px;
-    }
+    };
 `;
 
 export const Description = styled.p`
@@ -72,7 +74,7 @@ export const Description = styled.p`
     @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
         margin: 16px 0 24px;
         font-size: 12px;
-    }
+    };
 `;
 
 export const ButtonLink = styled.a`
@@ -92,7 +94,7 @@ export const ButtonLink = styled.a`
 
     &:hover {
         box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
-    }
+    };
 
     &:active {
         box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
@@ -101,10 +103,9 @@ export const ButtonLink = styled.a`
     @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
         width: 138px;
          height: 46px;
-    }
+    };
 `;
 
 export const StyledMessage = styled(Message)`
-/* color: ${({ theme }) => theme.color.white}; */
-/* background: ${({ theme }) => theme.color.scienceBlue}; */
+color: ${({ theme }) => theme.color.white};
 `;

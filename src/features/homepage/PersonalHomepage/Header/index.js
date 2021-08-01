@@ -1,10 +1,11 @@
 import { Wrapper, StyledImage, StyledWrapper, Introduction, Name, Description, StyledMessage, ButtonLink } from "./styled";
 import Image from "./wojciechBylica.png";
-import SwitchMode from "../../../../common/SwitchTheme";
+import SwitchTheme from "../../../../common/SwitchTheme";
 
 
 const Header = () => (
     <>
+        <SwitchTheme />
         <Wrapper>
             <StyledImage src={Image} alt="Wojciech Bylica" />
             <StyledWrapper>
@@ -14,7 +15,7 @@ const Header = () => (
                 <ButtonLink href={`mailto:"wojciechbylicaarts@gmail.com"`}><StyledMessage /><span>Hire Me</span></ButtonLink>
             </StyledWrapper>
         </Wrapper>
-        <SwitchMode />
+
     </>
 
 );

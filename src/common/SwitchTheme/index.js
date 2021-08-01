@@ -4,7 +4,7 @@ import { selectIsDarkTheme, toggleTheme } from "../themeSlice";
 
 
 
-const SwitchMode = () => {
+const SwitchTheme = () => {
     const isDarkTheme = useSelector(selectIsDarkTheme);
     console.log(isDarkTheme)
     const dispatch = useDispatch();
@@ -28,4 +28,4 @@ const SwitchMode = () => {
     );
 }
 
-export default SwitchMode;
+export default SwitchTheme;
