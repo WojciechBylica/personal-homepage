@@ -6,7 +6,6 @@ import { selectIsDarkTheme, toggleTheme } from "../themeSlice";
 
 const SwitchTheme = () => {
     const isDarkTheme = useSelector(selectIsDarkTheme);
-    console.log(isDarkTheme)
     const dispatch = useDispatch();
 
     return (
