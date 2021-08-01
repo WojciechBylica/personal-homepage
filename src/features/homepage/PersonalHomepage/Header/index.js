@@ -12,7 +12,7 @@ const Header = () => (
             <StyledWrapper>
                 <Introduction>This is</Introduction>
                 <Name>Wojciech Bylica</Name>
-                <Description>👨🏻‍💻 💻I’m a passionate Frontend Developer in love with React,currently looking for new job opportunities.</Description>
+                <Description>👨🏻‍💻 💻 I’m a passionate Frontend Developer in love with React,currently looking for new job opportunities.</Description>
                 <ButtonLink href={`mailto:${email}`}><StyledMessage /><span>Hire Me</span></ButtonLink>
             </StyledWrapper>
         </Wrapper>
