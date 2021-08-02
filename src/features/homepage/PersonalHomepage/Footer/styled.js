@@ -43,4 +43,8 @@ export const GitHubIcon = styled(GitHub)`
     &:focus {
         color: ${({ theme }) => theme.color.iconFocus}
     };
+
+    &:hover {
+        color: ${({ theme }) => theme.color.emailHover}
+    };
 `;

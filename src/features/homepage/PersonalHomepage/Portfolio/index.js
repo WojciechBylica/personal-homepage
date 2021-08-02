@@ -1,4 +1,5 @@
 import Error from "./Error";
+import Loading from "./Loading";
 import { GitHubIcon, PortfolioArticle, PortfolioHeader, PortfolioSection, PortfolioSubHeader } from "./styled";
 
 const Portfolio = () => {
@@ -10,9 +11,10 @@ const Portfolio = () => {
                 <PortfolioHeader>Portfolio</PortfolioHeader>
                 <PortfolioSubHeader>my recent projects</PortfolioSubHeader>
             </PortfolioArticle>
-            {/* <PortfolioArticle> */}
-                <Error />
-            {/* </PortfolioArticle> */}
+
+            {/* <Error /> */}
+            <Loading />
+
         </PortfolioSection>
     );
 };
