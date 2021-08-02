@@ -77,35 +77,10 @@ export const Description = styled.p`
     };
 `;
 
-export const ButtonLink = styled.a`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 16px;
-    position: relative;
-    width: 154px;
-    height: 49px;
-    border-radius: 4px;
-    font-weight: 600;
-    text-decoration: none;
-    border: 1px solid rgba(209, 213, 218, 0.3);
-    background: ${({ theme }) => theme.color.linkButtonBg};
-    color: ${({ theme }) => theme.color.white};
-
-    &:hover {
-        box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
-    };
-
-    &:active {
-        box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
-    }
-
-    @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
-        width: 138px;
-         height: 46px;
-    };
-`;
-
 export const StyledMessage = styled(Message)`
 color: ${({ theme }) => theme.color.white};
+margin-right: 18.77px;
+width: 19.23px;
+height: 17.12px;
+
 `;

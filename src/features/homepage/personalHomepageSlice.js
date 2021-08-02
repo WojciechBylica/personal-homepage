@@ -16,7 +16,7 @@ const personalHomepageSlice = createSlice({
             repositories: null,
         }),
         fetchLoadingReposError: () => ({
-            status = "error",
+            status: "error",
             repositories: null,
         }),
     }

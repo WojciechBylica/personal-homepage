@@ -1,7 +1,8 @@
-import { Wrapper, StyledImage, StyledWrapper, Introduction, Name, Description, StyledMessage, ButtonLink } from "./styled";
+import { Wrapper, StyledImage, StyledWrapper, Introduction, Name, Description, StyledMessage } from "./styled";
 import Image from "./wojciechBylica.png";
 import SwitchTheme from "../../../../common/SwitchTheme";
 import { email } from "../email";
+import { ButtonLink } from "../ButtonLink";
 
 
 const Header = () => (

@@ -32,7 +32,7 @@ export const StyledText = styled.span`
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         display: none;
-    }
+    };
 `;
 
 export const StyledSpan = styled.span`
