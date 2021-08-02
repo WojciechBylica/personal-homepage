@@ -29,7 +29,6 @@ export const LoadingIconCircle = styled.div`
     };
 `;
 
-
 export const LoadingIcon = styled(Loading)`
 position: absolute;
 color: ${({ theme }) => theme.color.elipseLoader};
