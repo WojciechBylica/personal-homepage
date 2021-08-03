@@ -6,11 +6,10 @@ import {
     fetchLoadingReposError
 } from "./personalHomepageSlice";
 
-function* fetchHomepageRepositoriesHandler({payload: username}) {
+function* fetchHomepageRepositoriesHandler() {
     try {
         yield delay(2_000);
-        const repositories = yield call({getRepositories, username});
-        console.log(repositories);
+        const repositories = yield call(getRepositories);
         yield put(fetchLoadingReposSuccess(repositories));
     } catch (error) {
         yield put(fetchLoadingReposError());
@@ -18,8 +17,5 @@ function* fetchHomepageRepositoriesHandler({payload: username}) {
 };
 
 export function* personalHomepageSaga() {
-    console.log("saga działa");
-    
     yield takeLatest(fetchLoadingReposLoading.type, fetchHomepageRepositoriesHandler);
-
-}
+};

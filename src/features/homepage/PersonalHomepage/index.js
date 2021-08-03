@@ -5,8 +5,6 @@ import { Wrapper } from "./Wrapper";
 import Footer from "./Footer";
 import Portfolio from "./Portfolio";
 
-
-
 export const PersonalHomepage = () => (
     <Wrapper>
         <Header />
@@ -14,6 +12,7 @@ export const PersonalHomepage = () => (
             header="My skillset includes 🛠"
             skills={skillsList}
         />
+        
         <Skills 
         header="What I want to learn next 🚀"
         skills= {nextSkillsList}
@@ -21,4 +20,4 @@ export const PersonalHomepage = () => (
         <Portfolio />
        <Footer />
     </Wrapper>
-)
+);

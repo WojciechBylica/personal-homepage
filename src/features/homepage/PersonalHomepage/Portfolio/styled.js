@@ -26,6 +26,7 @@ export const PortfolioHeader = styled.h2`
 export const PortfolioSubHeader = styled.p`
     color: ${({ theme }) => theme.color.text};
     font-size: 20px;
+    margin: 0;
 
     @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
         font-size: 14px;
