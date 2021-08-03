@@ -2,7 +2,9 @@ import styled from "styled-components";
 import { ReactComponent as GitHub } from "../icons/gitHub.svg";
 
 export const PortfolioSection = styled.section`
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;
 
 export const PortfolioArticle = styled.article`
