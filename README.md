@@ -1,11 +1,12 @@
 # personal-homepage
 - autor: Wojciech Bylica
 - updated: 03.08.2021
-## Preview
+
+## Preview.
 ![Preview](previewPersonalHomepage.gif)
+
 ## Demo.
 https://wojciechbylica.github.io/personal-homepage/
-
 
 ### Description.
 personal-homepage is presenting  my frondend portfolio. 
