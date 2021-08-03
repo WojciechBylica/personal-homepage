@@ -6,18 +6,21 @@ import Footer from "./Footer";
 import Portfolio from "./Portfolio";
 
 export const PersonalHomepage = () => (
-    <Wrapper>
+    <>
         <Header />
-        <Skills
-            header="My skillset includes 🛠"
-            skills={skillsList}
-        />
-        
-        <Skills 
-        header="What I want to learn next 🚀"
-        skills= {nextSkillsList}
-        />
-        <Portfolio />
-       <Footer />
-    </Wrapper>
+        <main>
+            <Skills
+                header="My skillset includes 🛠"
+                skills={skillsList}
+            />
+
+            <Skills
+                header="What I want to learn next 🚀"
+                skills={nextSkillsList}
+            />
+            
+            <Portfolio />
+        </main>
+        <Footer />
+    </>
 );
