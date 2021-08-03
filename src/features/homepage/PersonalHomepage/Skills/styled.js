@@ -9,7 +9,7 @@ export const Section = styled.section`
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         margin-bottom: 50px;
         padding: 16px 16px 8px;
-    }
+    };
 `;
 
 export const Header = styled.h2`
@@ -21,9 +21,8 @@ export const Header = styled.h2`
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         font-size: 18px;
-        /* margin: 16px; */
         padding-bottom: 12px;
-    }
+    };
 `;
 
 export const List = styled.ul`
@@ -34,12 +33,12 @@ export const List = styled.ul`
 
     @media ( max-width: ${({ theme }) => theme.media.tabletMax}px) {
         grid-template-columns: 1fr 1fr;
-    }
+    };
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         grid-template-columns: 1fr; 
         margin: 12px 0 0;
-    }
+    };
 `;
 
 export const Item = styled.li`
@@ -53,8 +52,7 @@ export const Item = styled.li`
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
        font-size: 14px;
-       /* margin: 8px 0; */
-    }
+    };
 `;
 
 export const Bullet = styled(BulletIcon)`
@@ -67,5 +65,5 @@ export const Bullet = styled(BulletIcon)`
         margin-right: 8px;
         width: 6px;
         height: 6px;
-    }
+    };
 `;
