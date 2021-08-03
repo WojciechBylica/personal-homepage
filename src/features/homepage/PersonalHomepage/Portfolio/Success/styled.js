@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Section = styled.section`
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
     grid-gap: 20px;
     margin: 24px 0 120px;
     word-break: break-all;
