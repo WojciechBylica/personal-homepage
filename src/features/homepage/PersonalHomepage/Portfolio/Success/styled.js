@@ -7,6 +7,7 @@ export const Section = styled.section`
     grid-gap: 20px;
     margin: 24px 0 120px;
     word-break: break-all;
+    justify-items: stretch;
 
     @media ( max-width: ${({ theme }) => theme.media.tabletMax}px) {
         grid-template-columns: 1fr;
