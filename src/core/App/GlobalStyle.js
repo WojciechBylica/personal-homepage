@@ -15,4 +15,12 @@ body {
     margin: 0 auto;
 }
 
+#root {
+    margin: 10% 5%;
+    max-width: 1216px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 `;
