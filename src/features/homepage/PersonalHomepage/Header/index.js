@@ -6,7 +6,7 @@ import { ButtonLink } from "../ButtonLink";
 
 
 const Header = () => (
-    <>
+    <header>
         <SwitchTheme />
         <Wrapper>
             <StyledImage src={Image} alt="Wojciech Bylica" />
@@ -18,7 +18,7 @@ const Header = () => (
             </StyledWrapper>
         </Wrapper>
 
-    </>
+    </header>
 
 );
 
