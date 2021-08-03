@@ -1,10 +1,21 @@
 # personal-homepage
 - autor: Wojciech Bylica
 - updated: 03.08.2021
+
+ HEAD
 personal-homepage is presenting frondend portfolio.
 ## Demo.
 https://wojciechbylica.github.io/personal-homepage/
 
+=======
+
+personal-homepage is presenting frondend portfolio.
+
+## Demo.
+https://wojciechbylica.github.io/personal-homepage/
+
+
+>>>>>>> e51a2ff8b6ac62b6cb5be4b8861dd78f9a9caa69
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
