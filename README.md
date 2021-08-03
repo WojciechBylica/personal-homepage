@@ -1,6 +1,7 @@
 # personal-homepage
 - autor: Wojciech Bylica
 - updated: 03.08.2021
+personal-homepage is presenting frondend portfolio.
 ## Demo.
 https://wojciechbylica.github.io/personal-homepage/
 
