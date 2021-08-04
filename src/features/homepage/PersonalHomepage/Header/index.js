@@ -1,6 +1,6 @@
 import { Wrapper, StyledImage, StyledWrapper, Introduction, Name, Description, StyledMessage } from "./styled";
 import Image from "./wojciechBylica.png";
-import SwitchTheme from "../../../../common/SwitchTheme";
+import SwitchTheme from "../../../../common/ThemeSwitcher";
 import { email } from "../email";
 import { ButtonLink } from "../ButtonLink";
 

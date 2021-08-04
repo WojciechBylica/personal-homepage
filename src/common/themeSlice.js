@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { getInitialThemeDark } from "./SwitchTheme/initialThemeDark";
+import { getInitialThemeDark } from "./ThemeSwitcher/initialThemeDark";
 const themeSlice = createSlice({
     name: "theme",
     initialState: {
