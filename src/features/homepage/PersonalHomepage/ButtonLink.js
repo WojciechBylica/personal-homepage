@@ -15,6 +15,7 @@ export const ButtonLink = styled.a`
     background: ${({ theme }) => theme.color.linkButtonBg};
     color: ${({ theme }) => theme.color.linkButtonColor};
     transition: transform 0.3s;
+    cursor: pointer;
 
     &:hover {
         box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
