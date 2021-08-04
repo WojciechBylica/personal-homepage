@@ -25,6 +25,7 @@ export const Article = styled.article`
     max-width: 592px;
     border-radius: 4px;
     padding: 56px;
+    transition: transform 0.3s;
     
     &:hover{
         border: 6px solid ${({ theme }) => theme.color.repoHoverShadow};
@@ -39,6 +40,7 @@ export const Header = styled.h4`
     color: ${({ theme }) => theme.color.repoHeader};
     margin: 0 0 24px;
     font-size: 16px;
+    transition: transform 0.3s;
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         margin: 0 0 16px;
@@ -46,11 +48,12 @@ export const Header = styled.h4`
 `;
 
 export const Description = styled.p`
-   color: ${({ theme }) => theme.color.textSecondary};
+    color: ${({ theme }) => theme.color.textSecondary};
     margin: 0 0 24px;
     font-size: 18px;
     text-align: justify;
     letter-spacing: 0.05em;
+    transition: transform 0.3s;
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         margin: 0 0 16px;
@@ -63,6 +66,7 @@ export const Links = styled.p`
     color: ${({ theme }) => theme.color.textSecondary};
     margin: 0 0 24px;
     font-size: 18px;
+    transition: transform 0.3s;
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         margin: 0 0 16px;
@@ -73,4 +77,5 @@ export const Links = styled.p`
 export const Link = styled.a`
     text-decoration: none;
     color: ${({ theme }) => theme.color.repoLink};
+    transition: transform 0.3s;
 `;

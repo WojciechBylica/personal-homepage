@@ -5,6 +5,7 @@ export const Section = styled.section`
     background: ${({ theme }) => theme.color.sectionBackground};
     margin-bottom: 72px;
     padding: 32px 32px 24px;
+    transition: transform 0.3s;
     
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         margin-bottom: 50px;
@@ -18,6 +19,7 @@ export const Header = styled.h2`
     padding-bottom: 15px;
     border-bottom: 1px solid ${({ theme }) => theme.color.sectionHeaderBorder};
     color: ${({ theme }) => theme.color.text};
+    transition: transform 0.3s;
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         font-size: 18px;
@@ -49,6 +51,7 @@ export const Item = styled.li`
     font-size: 18px;
     margin: 0 0 8px;
     color: ${({ theme }) => theme.color.textSecondary};
+    transition: transform 0.3s;
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
        font-size: 14px;
@@ -60,6 +63,7 @@ export const Bullet = styled(BulletIcon)`
     margin-right: 16px;
     width: 9px;
     height: 9px;
+    transition: transform 0.3s;
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         margin-right: 8px;

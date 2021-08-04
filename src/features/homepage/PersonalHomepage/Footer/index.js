@@ -2,8 +2,6 @@ import { FooterDescription, FooterIntroduction, FooterLink, GitHubIcon } from ".
 import { email } from "../email";
 import { gitHub } from "../gitHub";
 
-
-
 const Footer = () => (
     <footer>
         <FooterIntroduction>Let's talk</FooterIntroduction>

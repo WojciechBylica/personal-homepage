@@ -4,7 +4,6 @@ import SwitchTheme from "../../../../common/ThemeSwitcher";
 import { email } from "../email";
 import { ButtonLink } from "../ButtonLink";
 
-
 const Header = () => (
     <header>
         <SwitchTheme />
@@ -17,9 +16,7 @@ const Header = () => (
                 <ButtonLink href={`mailto:${email}`}><StyledMessage /><span>Hire Me</span></ButtonLink>
             </StyledWrapper>
         </Wrapper>
-
     </header>
-
 );
 
 export default Header;

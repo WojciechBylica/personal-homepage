@@ -22,8 +22,7 @@ const Portfolio = () => {
 
     useEffect(() => {
         dispatch(fetchLoadingReposLoading());
-    }, [dispatch]
-    );
+    }, [dispatch]);
 
     return (
         <PortfolioSection>

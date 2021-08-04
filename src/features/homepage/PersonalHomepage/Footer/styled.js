@@ -5,6 +5,7 @@ export const FooterIntroduction = styled.p`
     font-size: 12px;
     font-weight: 700;
     color: ${({ theme }) => theme.color.textSecondary};
+    transition: transform 0.3s;
 `;
 
 export const FooterLink = styled.a`
@@ -13,6 +14,7 @@ export const FooterLink = styled.a`
     color: ${({ theme }) => theme.color.text};
     margin-top: 24px;
     text-decoration: none;
+    transition: transform 0.3s;
 
     &:hover {
         color: ${({ theme }) => theme.color.emailHover}
@@ -30,6 +32,7 @@ export const FooterDescription = styled.article`
     max-width: 670px;
     margin: 24px 0 56px;
     line-height: 140%;
+    transition: transform 0.3s;
 
     @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
         font-size: 14px;
@@ -39,6 +42,7 @@ export const FooterDescription = styled.article`
 
 export const GitHubIcon = styled(GitHub)`
     color: ${({ theme }) => theme.color.text};
+    transition: transform 0.3s;
 
     &:focus {
         color: ${({ theme }) => theme.color.iconFocus}

@@ -29,6 +29,7 @@ export const StyledText = styled.span`
     font-size: 12px;
     line-height: 130%;
     flex-grow: 0;
+    transition: transform 0.3s;
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         display: none;
@@ -45,6 +46,7 @@ export const StyledSpan = styled.span`
     display: flex;
     align-items: center;
     padding: 3px;
+    transition: transform 0.3s;
 `;
 
 export const IconWrapper = styled.span`

@@ -17,6 +17,7 @@ export const ErrorArticle = styled.article`
 export const Header = styled.h3`
     margin: 23.16px 0 32px;
     color: ${({ theme }) => theme.color.text};
+    transition: transform 0.3s;
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         font-size: 18px;
@@ -30,6 +31,7 @@ export const Paragraph = styled.p`
     text-align: center;
     letter-spacing: 0.05em;
     color: ${({ theme }) => theme.color.text};
+    transition: transform 0.3s;
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         font-size: 14px;
@@ -40,4 +42,5 @@ export const DangerIcon = styled(Danger)`
     color: ${({ theme }) => theme.color.text};
     width: 40px;
     height: 40px;     
+    transition: transform 0.3s;
 `;

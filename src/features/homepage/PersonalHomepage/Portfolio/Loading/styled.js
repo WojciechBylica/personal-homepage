@@ -21,6 +21,7 @@ export const LoadingIconCircle = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s;
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         width: 80px;

@@ -45,6 +45,7 @@ export const Introduction = styled.p`
     line-height: 130%;
     text-transform: uppercase;
     color: ${({ theme }) => theme.color.textSecondary};
+    transition: transform 0.3s;
 
     @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
         margin: 12.67px 0 8px;
@@ -58,6 +59,7 @@ export const Name = styled.h1`
     letter-spacing: 0.05em;
     color: ${({ theme }) => theme.color.text};
     margin: 0;
+    transition: transform 0.3s;
 
     @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
         font-size: 22px;
@@ -70,6 +72,7 @@ export const Description = styled.p`
     letter-spacing: 0.05em;
     color: ${({ theme }) => theme.color.textSecondary};
     margin: 32px 0 35px;
+    transition: transform 0.3s;
 
     @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
         margin: 16px 0 24px;
@@ -82,5 +85,5 @@ color: ${({ theme }) => theme.color.white};
 margin-right: 18.77px;
 width: 19.23px;
 height: 17.12px;
-
+transition: transform 0.3s;
 `;
