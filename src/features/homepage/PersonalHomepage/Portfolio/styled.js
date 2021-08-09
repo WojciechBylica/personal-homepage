@@ -40,7 +40,7 @@ export const PortfolioSubHeader = styled.p`
 export const GitHubIcon = styled(GitHub)`
     color: ${({ theme }) => theme.color.iconPortfolio};
     width: 40px;
-    height: 40px;   
+    height: 40px;
     transition: transform 0.3s;
 
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
