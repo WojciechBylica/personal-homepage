@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import Portfolio from "./Portfolio";
 
 export const PersonalHomepage = () => (
-    <>
+    <Wrapper>
         <Header />
         <main>
             <Skills
@@ -22,5 +22,5 @@ export const PersonalHomepage = () => (
             <Portfolio />
         </main>
         <Footer />
-    </>
+    </Wrapper>
 );

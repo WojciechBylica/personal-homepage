@@ -15,12 +15,4 @@ body {
     margin: 0 auto;
     transition: transform 0.3s;
 };
-
-#root {
-    margin: 5% auto;
-    max-width: 1216px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-};
 `;
