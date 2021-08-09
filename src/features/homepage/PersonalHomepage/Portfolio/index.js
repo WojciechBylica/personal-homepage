@@ -18,7 +18,7 @@ import { useEffect } from "react";
 const Portfolio = () => {
     const dispatch = useDispatch();
 
-    const status = useSelector(selectStatus)
+    const status = useSelector(selectStatus);
 
     useEffect(() => {
         dispatch(fetchLoadingReposLoading());
