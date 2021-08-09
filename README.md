@@ -9,7 +9,7 @@
 https://wojciechbylica.github.io/personal-homepage/
 
 ### Description.
-personal-homepage is presenting  my frondend portfolio. 
+personal-homepage is presenting  my frondend portfolio.
 
 ### Technlogies and concepts used in personal-homepage.
 - html

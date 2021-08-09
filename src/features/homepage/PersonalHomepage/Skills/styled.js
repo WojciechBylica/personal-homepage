@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import { ReactComponent as BulletIcon } from "./bullet.svg"
+import { ReactComponent as BulletIcon } from "./bullet.svg";
 
 export const Section = styled.section`
     background: ${({ theme }) => theme.color.sectionBackground};
     margin-bottom: 72px;
     padding: 32px 32px 24px;
     transition: transform 0.3s;
-    
+
     @media ( max-width: ${({ theme }) => theme.media.mobileMax}px) {
         margin-bottom: 50px;
         padding: 16px 16px 8px;

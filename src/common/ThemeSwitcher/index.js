@@ -23,6 +23,6 @@ const SwitchTheme = () => {
             </StyledButton>
         </StyledSection>
     );
-}
+};
 
 export default SwitchTheme;

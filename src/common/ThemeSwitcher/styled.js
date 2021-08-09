@@ -40,9 +40,9 @@ export const StyledSpan = styled.span`
     width: 47.06px;
     height: 25.07px;
     border-radius: 12px;
-    border: 1px solid ${({ theme }) => theme.color.buttonBorder};  
-    background-color: ${({ theme }) => theme.color.buttonBackground}; 
-    margin: 0 0 0 12px;   
+    border: 1px solid ${({ theme }) => theme.color.buttonBorder};
+    background-color: ${({ theme }) => theme.color.buttonBackground};
+    margin: 0 0 0 12px;
     display: flex;
     align-items: center;
     padding: 3px;
@@ -57,10 +57,10 @@ export const IconWrapper = styled.span`
     transition: transform 0.3s;
     width: 20px;
     height: 20px;
-    background: ${({ theme }) => theme.color.buttonToggle};   
+    background: ${({ theme }) => theme.color.buttonToggle};
 
     ${({ moveToRight}) => moveToRight && css`
-        transform: translateX(20px); 
+        transform: translateX(20px);
     `}
 `;
 

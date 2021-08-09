@@ -5,7 +5,7 @@ import { Article, Description, Header, Link, Links, Section } from "./styled";
 const Success = () => {
     const repositories = useSelector(selectRepositories);
     const demo = `https://wojciechbylica.github.io/`;
-    
+
     return (
         <Section>
             {Object.keys(repositories).map(repo =>

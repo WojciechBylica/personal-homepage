@@ -31,5 +31,3 @@ export const nextSkillsList = [
     "TypeScript",
     "JS classes",
 ];
-
-    

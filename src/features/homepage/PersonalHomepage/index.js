@@ -18,7 +18,7 @@ export const PersonalHomepage = () => (
                 header="What I want to learn next 🚀"
                 skills={nextSkillsList}
             />
-            
+
             <Portfolio />
         </main>
         <Footer />
