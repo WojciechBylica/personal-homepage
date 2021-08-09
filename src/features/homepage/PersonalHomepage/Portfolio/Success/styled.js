@@ -26,7 +26,7 @@ export const Article = styled.article`
     border-radius: 4px;
     padding: 56px;
     transition: transform 0.3s;
-    
+
     &:hover{
         border: 6px solid ${({ theme }) => theme.color.repoHoverShadow};
     };
@@ -52,6 +52,7 @@ export const Description = styled.p`
     margin: 0 0 24px;
     font-size: 18px;
     text-align: justify;
+    word-break: break-word;
     letter-spacing: 0.05em;
     transition: transform 0.3s;
 
