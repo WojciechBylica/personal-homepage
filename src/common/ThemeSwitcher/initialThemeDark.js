@@ -1,11 +1,6 @@
 export const getInitialThemeDark = () => {
-    const date = new Date();
-    const hour = date.getHours();
+  const date = new Date();
+  const hour = date.getHours();
 
-    return (
-        (hour < 6 || hour > 19) ? true : false
-    );
+  return hour < 6 || hour > 19 ? true : false;
 };
-
-
-
