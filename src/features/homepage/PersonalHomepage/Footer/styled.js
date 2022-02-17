@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { ReactComponent as GitHub } from '../icons/gitHub.svg';
+import { ReactComponent as LinkedIn } from '../icons/linkedIn.svg';
 
 export const FooterIntroduction = styled.p`
   font-size: 12px;
@@ -51,4 +52,21 @@ export const GitHubIcon = styled(GitHub)`
   &:hover {
     color: ${({ theme }) => theme.color.emailHover};
   }
+`;
+
+export const LinkedInIcon = styled(LinkedIn)`
+  color: ${({ theme }) => theme.color.text};
+  transition: transform 0.3s;
+
+  &:focus {
+    color: ${({ theme }) => theme.color.iconFocus};
+  }
+
+  &:hover {
+    color: ${({ theme }) => theme.color.emailHover};
+  }
+`;
+
+export const StyledLink = styled.a`
+  padding-right: 16px;
 `;

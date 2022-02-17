@@ -6,4 +6,9 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 0 16px;
+
+  @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
+    padding: 0 8px;
+  } ;
 `;
