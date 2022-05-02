@@ -2,13 +2,11 @@ import {
   FooterDescription,
   FooterIntroduction,
   FooterLink,
-  GitHubIcon,
-  LinkedInIcon,
   StyledLink,
 } from './styled';
 import { email } from '../email';
-import { gitHub } from '../gitHub';
-import { linkedIn } from '../linkedIn';
+import { nanoid } from '@reduxjs/toolkit';
+import { accounts } from './accounts';
 
 const Footer = () => (
   <footer>
@@ -20,12 +18,16 @@ const Footer = () => (
       ideas come to life, feel free to contact me
     </FooterDescription>
     <div>
-      <StyledLink href={gitHub} rel="noreferrer noopener" target="_blank">
-        <GitHubIcon />
-      </StyledLink>
-      <StyledLink href={linkedIn} rel="noreferrer noopener" target="_blank">
-        <LinkedInIcon />
-      </StyledLink>
+      {accounts.map(({ account, icon }) => (
+        <StyledLink
+          key={nanoid()}
+          href={account}
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          {icon}
+        </StyledLink>
+      ))}
     </div>
   </footer>
 );
