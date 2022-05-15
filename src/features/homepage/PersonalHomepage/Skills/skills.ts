@@ -24,7 +24,7 @@ export const skillsList = [
   'GIT',
   'E2E testing - Cypress',
   'Unit testing - React Testing Library, Enzyme',
-  'TypeScript'
+  'TypeScript',
 ];
 
 export const nextSkillsList = ['Node.js', 'TypeScript', 'Testing'];
