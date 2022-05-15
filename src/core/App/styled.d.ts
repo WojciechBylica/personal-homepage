@@ -1,6 +1,6 @@
 import 'styled-components';
 
-interface IPalette {
+interface IScreenWidth {
   mobileMax: number;
   tabletMax: number;
 }
@@ -33,7 +33,7 @@ interface IColors {
 
 declare module 'styled-components' {
   export interface DefaultTheme {
-    media: IPalette;
+    media: IScreenWidth;
     color: IColors;
   }
 }
