@@ -1,7 +1,7 @@
 # personal-homepage
 
 - author: Wojciech Bylica
-- updated: 03.08.2021
+- updated: 15.05.2022
 
 ## Preview.
 
@@ -13,7 +13,7 @@ https://wojciechbylica.github.io/personal-homepage/
 
 ### Description.
 
-personal-homepage is presenting my frondend portfolio.
+It is a personal-homepage which presents my frontend portfolio.
 
 ### Technologies and concepts used in personal-homepage.
 
