@@ -1,12 +1,20 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { RootState } from '../../core/store';
+import { IGetRepositories } from './personalHomepageAPI';
+
+interface IPersonalHomepageSlice {
+  repositories: IGetRepositories[];
+  status: string;
+}
+
+const initialState: IPersonalHomepageSlice = {
+  repositories: [],
+  status: 'initial',
+};
 
 const personalHomepageSlice = createSlice({
   name: 'personalHomepage',
-  initialState: {
-    repositories: null,
-    status: 'initial',
-  },
+  initialState,
   reducers: {
     fetchLoadingReposSuccess: (_, { payload: repositories }) => ({
       status: 'success',
@@ -14,11 +22,11 @@ const personalHomepageSlice = createSlice({
     }),
     fetchLoadingReposLoading: () => ({
       status: 'loading',
-      repositories: null,
+      repositories: [],
     }),
     fetchLoadingReposError: () => ({
       status: 'error',
-      repositories: null,
+      repositories: [],
     }),
   },
 });
