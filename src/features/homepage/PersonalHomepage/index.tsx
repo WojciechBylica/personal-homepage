@@ -13,7 +13,7 @@ export const PersonalHomepage = () => (
 
       <Skills header="My skillset includes 🛠" skills={skillsList} />
 
-      <Skills header="What I want to learn next 🚀" skills={nextSkillsList} />
+      <Skills header="What I want to learn more 🚀" skills={nextSkillsList} />
 
       <Portfolio />
     </main>

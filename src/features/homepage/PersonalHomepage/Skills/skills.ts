@@ -24,9 +24,10 @@ export const skillsList = [
   'GIT',
   'E2E testing - Cypress',
   'Unit testing - React Testing Library, Enzyme',
+  'TypeScript'
 ];
 
-export const nextSkillsList = ['Node.js', 'TypeScript'];
+export const nextSkillsList = ['Node.js', 'TypeScript', 'Testing'];
 
 export const experience = [
   'National Institute Of Communication: since 05.2022',
