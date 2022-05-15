@@ -1,27 +1,20 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.2af6b9ef.chunk.js",
-    "main.js.map": "/personal-homepage/static/js/main.2af6b9ef.chunk.js.map",
-    "runtime-main.js": "/personal-homepage/static/js/runtime-main.883d6b99.js",
-    "runtime-main.js.map": "/personal-homepage/static/js/runtime-main.883d6b99.js.map",
-    "static/js/2.f73e49eb.chunk.js": "/personal-homepage/static/js/2.f73e49eb.chunk.js",
-    "static/js/2.f73e49eb.chunk.js.map": "/personal-homepage/static/js/2.f73e49eb.chunk.js.map",
-    "static/js/3.4a0bcb20.chunk.js": "/personal-homepage/static/js/3.4a0bcb20.chunk.js",
-    "static/js/3.4a0bcb20.chunk.js.map": "/personal-homepage/static/js/3.4a0bcb20.chunk.js.map",
+    "main.js": "/personal-homepage/static/js/main.b000965d.js",
+    "static/js/787.7b570914.chunk.js": "/personal-homepage/static/js/787.7b570914.chunk.js",
+    "static/media/wojciechBylica.png": "/personal-homepage/static/media/wojciechBylica.35109ebbd2811be23ef0.png",
+    "static/media/sunIcon.svg": "/personal-homepage/static/media/sunIcon.873cf05d51f90af830846cebd56bd380.svg",
     "index.html": "/personal-homepage/index.html",
-    "static/js/2.f73e49eb.chunk.js.LICENSE.txt": "/personal-homepage/static/js/2.f73e49eb.chunk.js.LICENSE.txt",
-    "static/media/Message.cad96cea.svg": "/personal-homepage/static/media/Message.cad96cea.svg",
-    "static/media/bullet.65fee71d.svg": "/personal-homepage/static/media/bullet.65fee71d.svg",
-    "static/media/danger.f15bfc83.svg": "/personal-homepage/static/media/danger.f15bfc83.svg",
-    "static/media/gitHub.685c0e4a.svg": "/personal-homepage/static/media/gitHub.685c0e4a.svg",
-    "static/media/icon-spinner.524bec14.svg": "/personal-homepage/static/media/icon-spinner.524bec14.svg",
-    "static/media/linkedIn.856fea87.svg": "/personal-homepage/static/media/linkedIn.856fea87.svg",
-    "static/media/sunIcon.873cf05d.svg": "/personal-homepage/static/media/sunIcon.873cf05d.svg",
-    "static/media/wojciechBylica.35109ebb.png": "/personal-homepage/static/media/wojciechBylica.35109ebb.png"
+    "static/media/gitHub.svg": "/personal-homepage/static/media/gitHub.685c0e4a102e7b27f086c04788da70ba.svg",
+    "static/media/danger.svg": "/personal-homepage/static/media/danger.f15bfc83e7ca17ab3e458b2f9c284e35.svg",
+    "static/media/linkedIn.svg": "/personal-homepage/static/media/linkedIn.856fea87a0beddb4da5b790b2aa4f718.svg",
+    "static/media/Message.svg": "/personal-homepage/static/media/Message.cad96cea7ec2478ddfc3ea7e0ef0878f.svg",
+    "static/media/icon-spinner.svg": "/personal-homepage/static/media/icon-spinner.524bec14779ddf7941d144d3a84c1a22.svg",
+    "static/media/bullet.svg": "/personal-homepage/static/media/bullet.65fee71dd2ebf05c6aaf2ec57d3e51fc.svg",
+    "main.b000965d.js.map": "/personal-homepage/static/js/main.b000965d.js.map",
+    "787.7b570914.chunk.js.map": "/personal-homepage/static/js/787.7b570914.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.883d6b99.js",
-    "static/js/2.f73e49eb.chunk.js",
-    "static/js/main.2af6b9ef.chunk.js"
+    "static/js/main.b000965d.js"
   ]
 }
