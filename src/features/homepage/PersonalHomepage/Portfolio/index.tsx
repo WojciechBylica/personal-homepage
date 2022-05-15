@@ -1,7 +1,4 @@
-import { useDispatch, useSelector } from 'react-redux';
-import Error from './Error';
-import Loading from './Loading';
-import Success from './Success';
+import { useDispatch } from 'react-redux';
 import {
   GitHubIcon,
   PortfolioArticle,
@@ -9,16 +6,12 @@ import {
   PortfolioSection,
   PortfolioSubHeader,
 } from './styled';
-import {
-  fetchLoadingReposLoading,
-  selectStatus,
-} from '../../personalHomepageSlice';
+import { fetchLoadingReposLoading } from '../../personalHomepageSlice';
 import { useEffect } from 'react';
+import { PortfolioContent } from './PortfolioContent';
 
 const Portfolio = () => {
   const dispatch = useDispatch();
-
-  const status = useSelector(selectStatus);
 
   useEffect(() => {
     dispatch(fetchLoadingReposLoading());
@@ -31,9 +24,7 @@ const Portfolio = () => {
         <PortfolioHeader>Portfolio</PortfolioHeader>
         <PortfolioSubHeader>my recent projects</PortfolioSubHeader>
       </PortfolioArticle>
-      {status === 'loading' && <Loading />}
-      {status === 'error' && <Error />}
-      {status === 'success' && <Success />}
+      <PortfolioContent />
     </PortfolioSection>
   );
 };
