@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.b000965d.js",
+    "main.js": "/personal-homepage/static/js/main.c7463adc.js",
     "static/js/787.7b570914.chunk.js": "/personal-homepage/static/js/787.7b570914.chunk.js",
     "static/media/wojciechBylica.png": "/personal-homepage/static/media/wojciechBylica.35109ebbd2811be23ef0.png",
     "static/media/sunIcon.svg": "/personal-homepage/static/media/sunIcon.873cf05d51f90af830846cebd56bd380.svg",
@@ -11,10 +11,10 @@
     "static/media/Message.svg": "/personal-homepage/static/media/Message.cad96cea7ec2478ddfc3ea7e0ef0878f.svg",
     "static/media/icon-spinner.svg": "/personal-homepage/static/media/icon-spinner.524bec14779ddf7941d144d3a84c1a22.svg",
     "static/media/bullet.svg": "/personal-homepage/static/media/bullet.65fee71dd2ebf05c6aaf2ec57d3e51fc.svg",
-    "main.b000965d.js.map": "/personal-homepage/static/js/main.b000965d.js.map",
+    "main.c7463adc.js.map": "/personal-homepage/static/js/main.c7463adc.js.map",
     "787.7b570914.chunk.js.map": "/personal-homepage/static/js/787.7b570914.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.b000965d.js"
+    "static/js/main.c7463adc.js"
   ]
 }
