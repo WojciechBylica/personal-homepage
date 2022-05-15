@@ -9,7 +9,7 @@ const Skills = ({ header, skills }:ISkills) => (
   <Section>
     <Header>{header}</Header>
     <List>
-      {skills.map((skill:string) => (
+      {skills.map((skill) => (
         <Item key={skill}>
           <Bullet />
           {skill}
