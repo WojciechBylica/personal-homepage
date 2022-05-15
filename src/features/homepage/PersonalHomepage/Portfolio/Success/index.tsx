@@ -1,5 +1,4 @@
 import { useSelector } from 'react-redux';
-import { IGetRepositories } from '../../../personalHomepageAPI';
 import { selectRepositories } from '../../../personalHomepageSlice';
 import { Article, Description, Header, Link, Links, Section } from './styled';
 
