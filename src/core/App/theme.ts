@@ -1,0 +1,81 @@
+import { DefaultTheme } from 'styled-components';
+
+const colorNames = {
+  white: '#FFFFFF',
+  whiteLilac: '#FBFBFE',
+  lightGrey: '#E5E5E5',
+  iron: '#d1d5da4d',
+  semiGrey: '#d1d5da1a',
+  slateGrey: '#6E7E91',
+  mineShaft: '#252525',
+  scienceBlue: '#0366D6',
+  dodgerBlue: '#2188FF',
+  semiDark: '#363636b8',
+  violet3percent: '#090a3308',
+  violet2percent: '#090a3305',
+  scienceBlue2percent: '#0366d633',
+  scienceBlue50percent: '#0366d680',
+};
+
+const media = {
+  mobileMax: 767,
+  tabletMax: 991,
+};
+
+export const themeLight: DefaultTheme = {
+  media,
+  color: {
+    background: colorNames.lightGrey,
+    text: colorNames.mineShaft,
+    textSecondary: colorNames.slateGrey,
+    linkButtonBg: colorNames.scienceBlue,
+    linkButtonColor: colorNames.white,
+    buttonBackground: colorNames.lightGrey,
+    buttonBorder: colorNames.slateGrey,
+    buttonToggle: colorNames.slateGrey,
+    buttonIcon: colorNames.white,
+    sectionBackground: colorNames.white,
+    sectionHeaderBorder: colorNames.iron,
+    bulletColor: colorNames.scienceBlue,
+    emailHover: colorNames.scienceBlue,
+    iconFocus: colorNames.scienceBlue,
+    iconPortfolio: colorNames.scienceBlue,
+    circleLoader: colorNames.iron,
+    elipseLoader: colorNames.scienceBlue,
+    repoBorderColor: colorNames.iron,
+    repoShadow2percent: colorNames.violet2percent,
+    repoShadow3percent: colorNames.violet3percent,
+    repoHoverShadow: colorNames.scienceBlue2percent,
+    repoHeader: colorNames.scienceBlue,
+    repoLink: colorNames.scienceBlue,
+  },
+};
+
+export const themeDark = {
+  media,
+  color: {
+    background: colorNames.mineShaft,
+    text: colorNames.white,
+    textSecondary: colorNames.white,
+    linkButtonBg: colorNames.dodgerBlue,
+    buttonBackground: colorNames.semiDark,
+    linkButtonColor: colorNames.white,
+    buttonBorder: colorNames.white,
+    buttonToggle: colorNames.white,
+    buttonIcon: colorNames.mineShaft,
+    sectionBackground: colorNames.semiDark,
+    sectionHeaderBorder: colorNames.semiGrey,
+    bulletColor: colorNames.dodgerBlue,
+    emailHover: colorNames.dodgerBlue,
+    iconFocus: colorNames.dodgerBlue,
+    iconPortfolio: colorNames.dodgerBlue,
+    circleLoader: colorNames.semiDark,
+    elipseLoader: colorNames.dodgerBlue,
+    repoBorderColor: colorNames.semiGrey,
+    repoShadow2percent: colorNames.violet2percent,
+    repoShadow3percent: colorNames.violet3percent,
+    repoHoverShadow: colorNames.scienceBlue50percent,
+    repoHeader: colorNames.white,
+    repoLink: colorNames.dodgerBlue,
+  },
+};
