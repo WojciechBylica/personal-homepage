@@ -1,11 +1,11 @@
 import { Header, Item, List, Section, Bullet } from './styled';
 
 interface ISkills {
-    header: string,
-    skills: string[]
-  }
+  header: string;
+  skills: string[];
+}
 
-const Skills = ({ header, skills }:ISkills) => (
+const Skills = ({ header, skills }: ISkills) => (
   <Section>
     <Header>{header}</Header>
     <List>

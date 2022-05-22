@@ -6,11 +6,11 @@ export const accounts = [
   {
     account: gitHub,
     icon: <GitHubIcon />,
-    ariaLabel: 'link my gitHub account'
+    ariaLabel: 'link my gitHub account',
   },
   {
     account: linkedIn,
     icon: <LinkedInIcon />,
-    ariaLabel: ' link to my linkedIn account'
+    ariaLabel: ' link to my linkedIn account',
   },
 ];
