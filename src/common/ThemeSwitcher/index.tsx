@@ -6,12 +6,12 @@ import {
   Icon,
   StyledSection,
 } from './styled';
-import { useDispatch, useSelector } from 'react-redux';
-import { selectIsDarkTheme, toggleTheme } from '../themeSlice';
+import { toggleTheme } from '../themeSlice';
+import { useAppDispatch, useAppSelector } from '../../features/homepage/hooks';
 
 const SwitchTheme = () => {
-  const isDarkTheme = useSelector(selectIsDarkTheme);
-  const dispatch = useDispatch();
+  const isDarkTheme = useAppSelector((state) => state.theme.isDarkTheme);
+  const dispatch = useAppDispatch();
 
   return (
     <StyledSection>

@@ -1,4 +1,3 @@
-import { useDispatch } from 'react-redux';
 import {
   GitHubIcon,
   PortfolioArticle,
@@ -9,9 +8,10 @@ import {
 import { fetchLoadingReposLoading } from '../../personalHomepageSlice';
 import { useEffect } from 'react';
 import { PortfolioContent } from './PortfolioContent';
+import { useAppDispatch } from '../../hooks';
 
 const Portfolio = () => {
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
 
   useEffect(() => {
     dispatch(fetchLoadingReposLoading());

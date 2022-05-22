@@ -3,7 +3,7 @@ import axios from 'axios';
 const gitHubAPIURL = 'https://api.github.com';
 const user = 'WojciechBylica';
 
-export interface IGetRepositories {
+export interface IRepositories {
   id: string;
   name: string;
   description: string;

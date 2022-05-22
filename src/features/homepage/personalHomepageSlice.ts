@@ -1,16 +1,15 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { RootState } from '../../core/store';
-import { IGetRepositories } from './personalHomepageAPI';
+import { IRepositories } from './personalHomepageAPI';
 
 type StatusType = 'initial' | 'success' | 'loading' | 'error';
 
 interface IPersonalHomepageSlice {
-  repositories: IGetRepositories[];
+  repositories: IRepositories[] | null;
   status: StatusType;
 }
 
 const initialState: IPersonalHomepageSlice = {
-  repositories: [],
+  repositories: null,
   status: 'initial',
 };
 
@@ -24,11 +23,11 @@ const personalHomepageSlice = createSlice({
     }),
     fetchLoadingReposLoading: (): IPersonalHomepageSlice => ({
       status: 'loading',
-      repositories: [],
+      repositories: null,
     }),
     fetchLoadingReposError: (): IPersonalHomepageSlice => ({
       status: 'error',
-      repositories: [],
+      repositories: null,
     }),
   },
 });
@@ -38,13 +37,5 @@ export const {
   fetchLoadingReposLoading,
   fetchLoadingReposError,
 } = personalHomepageSlice.actions;
-
-const selectPersonalHomepageState = (state: RootState) =>
-  state.personalHomepage;
-
-export const selectRepositories = (state: RootState) =>
-  selectPersonalHomepageState(state).repositories;
-export const selectStatus = (state: RootState) =>
-  selectPersonalHomepageState(state).status;
 
 export default personalHomepageSlice.reducer;

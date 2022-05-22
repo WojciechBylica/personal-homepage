@@ -1,11 +1,10 @@
-import { useSelector } from 'react-redux';
 import Error from './Error';
 import Loading from './Loading';
 import Success from './Success';
-import { selectStatus } from '../../personalHomepageSlice';
+import { useAppSelector } from '../../hooks';
 
 export const PortfolioContent = () => {
-  const status = useSelector(selectStatus);
+  const status = useAppSelector((state) => state.personalHomepage.status);
 
   switch (status) {
     case 'loading':
