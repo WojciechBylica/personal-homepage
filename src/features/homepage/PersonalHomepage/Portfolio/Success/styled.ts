@@ -82,4 +82,8 @@ export const Link = styled.a`
   text-decoration: none;
   color: ${({ theme }) => theme.color.repoLink};
   transition: transform 0.3s;
+
+  @media (max-width: ${({ theme }) => theme.media.mobileMax}px) {
+    font-size: 14px;
+  }
 `;
