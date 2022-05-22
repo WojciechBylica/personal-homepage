@@ -1,6 +1,5 @@
 export const getInitialThemeDark = () => {
-  const date = new Date();
-  const hour = date.getHours();
+  const isOsDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-  return hour < 6 || hour > 19 ? true : false;
+  return isOsDark;
 };
