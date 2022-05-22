@@ -15,7 +15,7 @@ const Success = () => {
             <Header>{repo.name}</Header>
             <Description>{repo.description}</Description>
             <Links>
-              Demo:{' '}
+              <span>Demo:</span>
               <Link
                 href={`${demo}${repo.name}`}
                 target="_blank"
