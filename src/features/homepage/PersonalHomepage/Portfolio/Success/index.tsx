@@ -9,31 +9,30 @@ const Success = () => {
 
   return (
     <Section>
-      {repositories &&
-        repositories.map((repo) => (
-          <Article key={repo.id}>
-            <Header>{repo.name}</Header>
-            <Description>{repo.description}</Description>
-            <Links>
-              <span>Demo:</span>
-              <Link
-                href={`${demo}${repo.name}`}
-                target="_blank"
-                rel="noreferrer noopener"
-              >{`${demo}${repo.name}`}</Link>
-            </Links>
-            <Links>
-              Repo:{' '}
-              <Link
-                href={repo.clone_url}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                {repo.clone_url}
-              </Link>
-            </Links>
-          </Article>
-        ))}
+      {repositories?.map((repo) => (
+        <Article key={repo.id}>
+          <Header>{repo.name}</Header>
+          <Description>{repo.description}</Description>
+          <Links>
+            <span>Demo:</span>
+            <Link
+              href={`${demo}${repo.name}`}
+              target="_blank"
+              rel="noreferrer noopener"
+            >{`${demo}${repo.name}`}</Link>
+          </Links>
+          <Links>
+            Repo:{' '}
+            <Link
+              href={repo.clone_url}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              {repo.clone_url}
+            </Link>
+          </Links>
+        </Article>
+      ))}
     </Section>
   );
 };
