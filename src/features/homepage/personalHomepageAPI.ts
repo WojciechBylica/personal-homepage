@@ -10,7 +10,7 @@ export interface IRepository {
   clone_url: string;
 }
 
-export const getRepositories = (): Promise<IRepository[]> =>
+export const getRepositories = () =>
   axios
-    .get(`${gitHubAPIURL}/users/${user}/repos`)
+    .get<IRepository[]>(`${gitHubAPIURL}/users/${user}/repos`)
     .then((response) => response.data);
