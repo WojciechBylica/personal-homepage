@@ -51,7 +51,7 @@ export const themeLight: DefaultTheme = {
   },
 };
 
-export const themeDark = {
+export const themeDark: DefaultTheme = {
   media,
   color: {
     background: colorNames.mineShaft,
