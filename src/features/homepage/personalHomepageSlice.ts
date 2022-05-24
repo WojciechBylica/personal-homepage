@@ -1,11 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { IRepositories } from './personalHomepageAPI';
+import { IRepository } from './personalHomepageAPI';
 
-type StatusType = 'initial' | 'success' | 'loading' | 'error';
+type Status = 'initial' | 'success' | 'loading' | 'error';
 
 interface IPersonalHomepageSlice {
-  repositories: IRepositories[] | null;
-  status: StatusType;
+  repositories: IRepository[] | null;
+  status: Status;
 }
 
 const initialState: IPersonalHomepageSlice = {

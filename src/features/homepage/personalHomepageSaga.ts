@@ -1,5 +1,5 @@
 import { call, delay, put, takeLatest } from 'redux-saga/effects';
-import { getRepositories, IRepositories } from './personalHomepageAPI';
+import { getRepositories, IRepository } from './personalHomepageAPI';
 import {
   fetchLoadingReposSuccess,
   fetchLoadingReposLoading,
@@ -9,7 +9,7 @@ import {
 function* fetchHomepageRepositoriesHandler() {
   try {
     yield delay(2_000);
-    const repositories: IRepositories = yield call(getRepositories);
+    const repositories: IRepository = yield call(getRepositories);
     yield put(fetchLoadingReposSuccess(repositories));
   } catch (error) {
     yield put(fetchLoadingReposError());
