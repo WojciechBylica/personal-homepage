@@ -1,11 +1,11 @@
 import { Header, Item, List, Section, Bullet } from './styled';
 
-interface ISkills {
-  header: string;
+interface ISkillsProps {
+  header: React.ReactNode;
   skills: string[];
 }
 
-const Skills = ({ header, skills }: ISkills) => (
+const Skills = ({ header, skills }: ISkillsProps) => (
   <Section>
     <Header>{header}</Header>
     <List>
