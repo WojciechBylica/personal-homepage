@@ -9,15 +9,18 @@ interface IPersonalHomepageSlice {
 }
 
 const initialState: IPersonalHomepageSlice = {
-  repositories: null,
   status: 'initial',
+  repositories: null,
 };
 
 const personalHomepageSlice = createSlice({
   name: 'personalHomepage',
   initialState,
   reducers: {
-    fetchLoadingReposSuccess: (_, { payload: repositories }) => ({
+    fetchLoadingReposSuccess: (
+      _,
+      { payload: repositories }
+    ): IPersonalHomepageSlice => ({
       status: 'success',
       repositories,
     }),
