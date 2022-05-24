@@ -17,6 +17,7 @@ export const StyledButton = styled.button`
   justify-content: flex-end;
   align-items: center;
   padding: 0px;
+  cursor: pointer;
 `;
 
 export const StyledText = styled.span`
@@ -49,11 +50,9 @@ export const StyledSpan = styled.span`
   transition: transform 0.3s;
 `;
 
-type SpanType = {
+export const IconWrapper = styled.span<{
   moveToRight: boolean;
-};
-
-export const IconWrapper = styled.span<SpanType>`
+}>`
   display: flex;
   justify-content: center;
   align-items: center;
