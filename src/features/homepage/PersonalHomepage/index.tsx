@@ -9,7 +9,11 @@ export const PersonalHomepage = () => (
   <Wrapper>
     <Header />
     <main>
-      <Skills header="My commercial experience📈" skills={experience} />
+      <Skills
+        header="My commercial experience 📈"
+        skills={experience}
+        oneColumn
+      />
 
       <Skills header="My skillset includes 🛠" skills={skillsList} />
 

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { ReactComponent as BulletIcon } from './bullet.svg';
 
 export const Section = styled.section`
@@ -27,11 +27,19 @@ export const Header = styled.h2`
   } ;
 `;
 
-export const List = styled.ul`
+export const List = styled.ul<{
+  oneColumn?: boolean;
+}>`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 32px 0 0;
   padding-left: 0;
+
+  ${({ oneColumn }) =>
+    oneColumn &&
+    css`
+      display: block;
+    `};
 
   @media (max-width: ${({ theme }) => theme.media.tabletMax}px) {
     grid-template-columns: 1fr 1fr;
